@@ -7,19 +7,54 @@
 
 
 body{
-  background-color: #fff;
+  background-color: #f8f8f8;
   padding: 0;
   margin: 0;
 }
 
+
 button {
     background-color: #2047b7;
     color: white;
-    font-size: 2.8em;
-    padding: 25px 40px;
-    margin-top: 25px;
+    font-size: 1em;
+    padding: 10px 15px;
+    margin-top: 10px;
     border-radius: 500px;
     float: right;
+}
+
+.but2 {
+    background-color: #2047b7;
+    color: white;
+    font-size: 1em;
+    padding: 10px 15px;
+    margin-top: 60px;
+    border-radius: 500px;
+    float: right;
+}
+
+.body-text {
+    font-size: 1em;
+}
+
+.card {
+    border: none;
+}
+
+.dropdown {
+    width: 100%;
+    background-color: white;
+    color: #2C303A;
+    text-align: left;
+    border-radius: 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    border: none;
+}
+
+.drop-text {
+    padding: 10px 0;
+    margin: 0;
 }
 
 .screen-contain{
@@ -33,21 +68,25 @@ button {
 }
 
 .header {
-    font-size: 6em;
+    font-size: 1.8em;
     color: #2C303A;
     padding-top: 10px;
 }
 
 .menu-but{
-    font-size: 4em;
+    font-size: 1.5em;
     float: right;
-    padding-top: 70px;
+    padding-top: 30px;
     color: #2047b7;
 }
 
+.link {
+    width: ;
+}
+
 .owl {
-    width: 200px;
-    padding-top: 200px;
+    width: 60px;
+    padding-top: 80px;
 }
 
 .shadow{
@@ -57,6 +96,7 @@ button {
 }
 
 .spacer{
+<<<<<<< Updated upstream
     padding-top: 500px;
 }
 
@@ -119,3 +159,7 @@ li{
 .active{
   color: blue !important;
 }
+=======
+    padding-top: 160px;
+}
+>>>>>>> Stashed changes
