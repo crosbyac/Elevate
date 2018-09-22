@@ -16,8 +16,17 @@
 
 <body>
 
+  <div id="myDIV" class="navMenu">
+    <li><a class="navlink active" href="#"><i class="fas fa-chart-line navIco"></i> Ask Owlo</a></li>
+    <li><a class="navlink" href="#"><i class="fas fa-chart-line navIco"></i> Test Noise</a></li>
+    <li><a class="navlink" href="#"><i class="fas fa-map-marked-alt navIco"></i> Map</a></li>
+    <li><a class="navlink" href="#"><i class="fab fa-leanpub navIco"></i> Education</a></li>
+    <li><a class="navlink" href="#"><i class="fas fa-chart-bar navIco"></i> Report History</a></li>
+    <li><a class="navlink" href="#"><i class="far fa-user navIco"></i> Acount Setting</a></li>
+    <li></li>
+  </div>
 
-<div class="screen-contain">
+<div id="screenM" class="screen-contain">
 
 <div class="row">
    <div class="col">
@@ -32,26 +41,48 @@
 </div>
 
 <div class="row spacer">
-    <div class="col shift">
-        <button>
-        <img src="img/icons/map.svg" alt="map" class="icon">
-        I want to learn about the sound here.</button>
+    <div class="col">
+       <a href="evaluate.html">
+            <button class="shadow">
+                <i class="fas fa-map-marker-alt pr-3"></i>
+             Evaluate the sound in my area.</button>
+         </a>
     </div>
 </div>
 <div class="row">
     <div class="col">
-        b2
+        <a href="teach.html">
+            <button class="shadow">
+            <i class="fas fa-file-alt pr-3"></i>
+            Teach me about sound bylaws.</button>
+        </a>
     </div>
 </div>
 
+<div class="row">
+    <div class="col">
+        <div onclick="myFunction()"><i class="fas fa-bars menu-but"></i></div>
+    </div>
+</div>
 
+</div>
 
 
 <!--script-->
+<script>
+function myFunction() {
+    var element = document.getElementById("myDIV");
+    element.classList.add("mystyle");
+    var element = document.getElementById("screenM");
+    element.classList.add("move");
+}
+</script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
 
 </body>
 </html>

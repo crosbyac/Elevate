@@ -59,3 +59,63 @@ button {
 .spacer{
     padding-top: 500px;
 }
+
+#myDIV{
+  width: 60%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #EDEDED;
+
+  font-size: 3em;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+
+  transition: ease-in-out 0.3s;
+}
+
+.navMenu{
+  margin-left: 100%;
+  color: black;
+}
+
+li{
+  list-style: none;
+  margin-bottom: 2em;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    color: white;
+    margin-left: 40%;
+}
+
+.move{
+  margin-right: 60%;
+  transition: ease-in-out 0.3s;
+}
+
+.navlink{
+  color: black;
+  width: 100%;
+  transition: ease-in-out 0.3s;
+}
+
+.navLink:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.navIco{
+  margin-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.active{
+  color: blue !important;
+}
