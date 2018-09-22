@@ -1,0 +1,45 @@
+body{
+  background-color: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+    background-color: #f79904;
+    color: white;
+    font-size: 2.8em;
+    padding: 25px 40px;
+    border-radius: 500px;
+    float: right;
+}
+
+.screen-contain{
+  width: 100%;
+  height: 100%;
+  padding: 0 50px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.header {
+    font-size: 6em;
+    color: #0033D4;
+    padding-top: 10px;
+}
+
+.owl {
+    width: 270px;
+    padding-top: 200px;
+}
+
+.shift {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.spacer{
+    padding-top: 400px;
+}
