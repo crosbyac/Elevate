@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'work';
+  font-style: normal;
+  font-weight: 300;
+  src: url('SF-Pro-Display-Bold.otf');
+}
+
+
+body{
+  background-color: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+    float: right;
+}
+
+.chat-area{
+    width: 100%;
+}
+
+.box-L {
+    background-color: none;
+    float: left;
+    text-align: left;
+}
+
+.box-R {
+    background-color: papayawhip;
+    float: right;
+    text-align: right;
+}
+
+.row{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.chat{
+  padding-top: 22.5px;
+  padding-bottom: 2px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 2em;
+
+  height: 3em;
+
+  border-radius: 50px;
+
+  margin-bottom: 1em;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+.contain{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.Owl{
+  height: 2em;
+  margin-right: 15px;
+  padding-right: 5px;
+}
+
+.text-area{
+  width: 100%;
+  text-align: right;
+}
+
+.btn{
+  font-size: 3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  height: 3em;
+  width: 3em;
+  border-radius: 75px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #F79904;
+  background-color: white;
+  color: #F79904;
+
+  box-shadow: 1px 2px 2px 4px rgb(0,0,0,0.1)
+
+}
