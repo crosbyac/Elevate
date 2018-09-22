@@ -1,5 +1,22 @@
 body{
-  background-color: orange;
+  background-color: aliceblue;
   padding: 0;
   margin: 0;
+}
+
+button {
+    float: right;
+}
+
+.chat-area{
+    width: 100%;
+}
+
+.box-L {
+    background-color: lightgrey;
+}
+
+.box-R {
+    background-color: papayawhip;
+    float: right;
 }
